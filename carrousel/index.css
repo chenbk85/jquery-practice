@@ -1,0 +1,117 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	padding: 20px;
+}
+
+ul,li {
+	list-style: none;
+}
+
+a {
+	color:#2B93D2;
+	text-decoration: none;
+}
+
+#carrousel {
+	width: 595px;
+}
+
+.caption {
+	height:35px; 
+	overflow:hidden; 
+	background:url(img/btn_cartoon.gif) no-repeat 0 0; 
+}
+
+.caption h1 {
+	width:84px; 
+	height:35px; 
+	overflow:hidden;
+	text-indent: -9999px;
+	float:left;
+	background:url(img/btn_cartoon.gif) no-repeat; 
+	background-position: 0 -100px;
+}
+
+.caption .state  {
+	margin:14px 0 0 10px; 
+	float:left;
+}
+
+.caption .state span {
+	width:7px; 
+	height:7px; 
+	overflow:hidden;
+	text-indent:-9999px;
+	margin:0 2px;  
+	float:left;
+	background:url(img/btn_cartoon.gif) no-repeat 0 -320px; 
+}
+
+.caption .state span.active {
+	background-position:0 -220px;
+}
+
+.change-btn {
+	float:left; 
+	margin:7px 0 0 10px;
+}
+
+.change-btn button {
+	float:left; 
+	width:30px; 
+	height:23px; 
+	border:none;
+	overflow:hidden; 
+	padding: 0;
+	margin: 0;
+	background:url(img/btn_cartoon.gif) no-repeat; 
+	text-indent:-9999px; 
+	cursor:pointer;
+}
+
+.change-btn button:focus {
+	outline: none;
+}
+
+.change-btn button:first-child {
+	background-position:0 -400px;
+}
+
+.change-btn button:last-child {
+	background-position:-30px -400px;
+}
+
+.change-btn button:first-child:active {
+	background-position:0 -500px;
+}
+
+.change-btn button:last-child:active {
+	background-position:-30px -500px;
+}
+
+.content {
+	width:592px;
+	height: 170px;
+	border:1px solid #eee;
+	border-top: none;
+	position: relative;
+	overflow: hidden;
+}
+
+.content ul {
+	font-size: 13px;
+	line-height: 20px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+.content ul li {
+	margin:8px 2px 0 2px;
+	padding: 8px;
+	float: left;
+}
